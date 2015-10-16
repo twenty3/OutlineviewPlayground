@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016DD4531BD0427A0046CE9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DD4521BD0427A0046CE9F /* AppDelegate.m */; };
+		016DD4561BD0427A0046CE9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DD4551BD0427A0046CE9F /* main.m */; };
+		016DD4581BD0427A0046CE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016DD4571BD0427A0046CE9F /* Assets.xcassets */; };
+		016DD45B1BD0427A0046CE9F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016DD4591BD0427A0046CE9F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016DD44E1BD0427A0046CE9F /* Outlineview Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outlineview Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		016DD4511BD0427A0046CE9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		016DD4521BD0427A0046CE9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		016DD4551BD0427A0046CE9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		016DD4571BD0427A0046CE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016DD45A1BD0427A0046CE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		016DD45C1BD0427A0046CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016DD44B1BD0427A0046CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016DD4451BD0427A0046CE9F = {
+			isa = PBXGroup;
+			children = (
+				016DD4501BD0427A0046CE9F /* Outlineview Playground */,
+				016DD44F1BD0427A0046CE9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016DD44F1BD0427A0046CE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016DD44E1BD0427A0046CE9F /* Outlineview Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016DD4501BD0427A0046CE9F /* Outlineview Playground */ = {
+			isa = PBXGroup;
+			children = (
+				016DD4511BD0427A0046CE9F /* AppDelegate.h */,
+				016DD4521BD0427A0046CE9F /* AppDelegate.m */,
+				016DD4571BD0427A0046CE9F /* Assets.xcassets */,
+				016DD4591BD0427A0046CE9F /* MainMenu.xib */,
+				016DD45C1BD0427A0046CE9F /* Info.plist */,
+				016DD4541BD0427A0046CE9F /* Supporting Files */,
+			);
+			path = "Outlineview Playground";
+			sourceTree = "<group>";
+		};
+		016DD4541BD0427A0046CE9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016DD4551BD0427A0046CE9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016DD44D1BD0427A0046CE9F /* Outlineview Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016DD45F1BD0427A0046CE9F /* Build configuration list for PBXNativeTarget "Outlineview Playground" */;
+			buildPhases = (
+				016DD44A1BD0427A0046CE9F /* Sources */,
+				016DD44B1BD0427A0046CE9F /* Frameworks */,
+				016DD44C1BD0427A0046CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Outlineview Playground";
+			productName = "Outlineview Playground";
+			productReference = 016DD44E1BD0427A0046CE9F /* Outlineview Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016DD4461BD0427A0046CE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MartianCraft;
+				TargetAttributes = {
+					016DD44D1BD0427A0046CE9F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 016DD4491BD0427A0046CE9F /* Build configuration list for PBXProject "Outlineview Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016DD4451BD0427A0046CE9F;
+			productRefGroup = 016DD44F1BD0427A0046CE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016DD44D1BD0427A0046CE9F /* Outlineview Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016DD44C1BD0427A0046CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DD4581BD0427A0046CE9F /* Assets.xcassets in Resources */,
+				016DD45B1BD0427A0046CE9F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016DD44A1BD0427A0046CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DD4561BD0427A0046CE9F /* main.m in Sources */,
+				016DD4531BD0427A0046CE9F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		016DD4591BD0427A0046CE9F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016DD45A1BD0427A0046CE9F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016DD45D1BD0427A0046CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		016DD45E1BD0427A0046CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		016DD4601BD0427A0046CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Outlineview Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martiancraft.Outlineview-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		016DD4611BD0427A0046CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Outlineview Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martiancraft.Outlineview-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016DD4491BD0427A0046CE9F /* Build configuration list for PBXProject "Outlineview Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DD45D1BD0427A0046CE9F /* Debug */,
+				016DD45E1BD0427A0046CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016DD45F1BD0427A0046CE9F /* Build configuration list for PBXNativeTarget "Outlineview Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DD4601BD0427A0046CE9F /* Debug */,
+				016DD4611BD0427A0046CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016DD4461BD0427A0046CE9F /* Project object */;
+}
