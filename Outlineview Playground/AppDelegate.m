@@ -58,16 +58,7 @@
                             ]];
     
     [self.outlineView reloadData];
-    [self.outlineView setColumnAutoresizingStyle:NSTableViewFirstColumnOnlyAutoresizingStyle];
-    
-    NSTableColumn* mapColumn = [self.outlineView tableColumnWithIdentifier:@"MapNameColumn"];
-    [mapColumn setResizingMask:NSTableColumnAutoresizingMask];
-    
-    NSTableColumn* planetColumn = [self.outlineView tableColumnWithIdentifier:@"PlanetNameColumn"];
-    [planetColumn setResizingMask:NSTableColumnNoResizing];
-    
     [self.outlineView sizeToFit];
-    
 }
 
 #pragma mark - NSOutlineViewDataSource
