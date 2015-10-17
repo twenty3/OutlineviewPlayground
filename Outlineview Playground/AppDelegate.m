@@ -100,8 +100,19 @@
         cellView = [outlineView makeViewWithIdentifier:@"PlanetCell" owner:self];
         cellView.layer.backgroundColor = [[NSColor yellowColor] colorWithAlphaComponent:0.25].CGColor;
     }
-    
+    else if ( [tableColumn.identifier isEqualToString:@"Column3"] )
+    {
+        cellView = [outlineView makeViewWithIdentifier:@"Column3" owner:self];
+        cellView.layer.backgroundColor = [[NSColor greenColor] colorWithAlphaComponent:0.25].CGColor;
+    }
+    else if ( [tableColumn.identifier isEqualToString:@"Column4"] )
+    {
+        cellView = [outlineView makeViewWithIdentifier:@"Column4" owner:self];
+        cellView.layer.backgroundColor = [[NSColor redColor] colorWithAlphaComponent:0.25].CGColor;
+    }
 
+
+    
     
     return cellView;
 } 
