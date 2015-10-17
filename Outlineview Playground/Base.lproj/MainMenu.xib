@@ -689,6 +689,7 @@
                                     <animations/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.25106907890000002" colorSpace="calibratedRGB"/>
+                                    <tableViewGridLines key="gridStyleMask" vertical="YES"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
                                         <tableColumn identifier="MapNameColumn" width="345" minWidth="20" maxWidth="100000" id="HwW-r7-ZwA">
@@ -745,7 +746,6 @@
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
-                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="PlanetCell" wantsLayer="YES" id="jzc-tf-RlU">
                                                     <rect key="frame" x="349" y="1" width="60" height="17"/>
@@ -788,14 +788,17 @@
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
-                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="Column3" id="CGB-BI-Ac9">
                                                     <rect key="frame" x="412" y="1" width="32" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
-                                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eX2-wF-SFG">
+                                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eX2-wF-SFG">
                                                             <rect key="frame" x="0.0" y="0.0" width="32" height="17"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="16" id="01z-C1-Ban"/>
+                                                                <constraint firstAttribute="width" constant="32" id="7ja-M0-64t"/>
+                                                            </constraints>
                                                             <animations/>
                                                             <buttonCell key="cell" type="recessed" title="X" bezelStyle="recessed" alignment="center" controlSize="small" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2MY-VG-i9c">
                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -803,6 +806,10 @@
                                                             </buttonCell>
                                                         </button>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="eX2-wF-SFG" firstAttribute="centerX" secondItem="CGB-BI-Ac9" secondAttribute="centerX" id="TzR-zL-ifK"/>
+                                                        <constraint firstItem="eX2-wF-SFG" firstAttribute="centerY" secondItem="CGB-BI-Ac9" secondAttribute="centerY" id="z2u-0G-gcl"/>
+                                                    </constraints>
                                                     <animations/>
                                                 </tableCellView>
                                             </prototypeCellViews>
@@ -818,14 +825,17 @@
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
-                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="Column4" id="sc8-uw-Jeg">
                                                     <rect key="frame" x="447" y="1" width="32" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
-                                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y0w-Nm-GwT">
+                                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y0w-Nm-GwT">
                                                             <rect key="frame" x="0.0" y="0.0" width="32" height="17"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="32" id="Qn7-Kq-ile"/>
+                                                                <constraint firstAttribute="height" constant="16" id="phF-Ya-m29"/>
+                                                            </constraints>
                                                             <animations/>
                                                             <buttonCell key="cell" type="recessed" title="Y" bezelStyle="recessed" alignment="center" controlSize="small" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7xQ-Sf-SdS">
                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -833,6 +843,10 @@
                                                             </buttonCell>
                                                         </button>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="Y0w-Nm-GwT" firstAttribute="centerY" secondItem="sc8-uw-Jeg" secondAttribute="centerY" id="0rc-dd-sgv"/>
+                                                        <constraint firstItem="Y0w-Nm-GwT" firstAttribute="centerX" secondItem="sc8-uw-Jeg" secondAttribute="centerX" id="422-RC-Vqf"/>
+                                                    </constraints>
                                                     <animations/>
                                                 </tableCellView>
                                             </prototypeCellViews>
